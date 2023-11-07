@@ -1,0 +1,19 @@
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5em;
+}
+#si{
+    font-size: 2rem;
+}
+@media only screen and (max-width:600px) {
+    #intro{
+        flex-direction: column;
+        margin: 2em;
+        font-size: '1rem';
+    }
+    #si{
+        font-size: 1rem;
+    }
+}

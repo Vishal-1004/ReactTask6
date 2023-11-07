@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+}
+li{
+    padding-right: 5em;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+nav a.active {
+  border-bottom: 2px solid white; /* Add an underline to the active link */
+}
